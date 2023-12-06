@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/main.go",
+            // "args": ["account.jens.test", "JENS test besked"]
+            "args": ["account.created", "CREATED test besked"]
+        }
+    ]
+}
